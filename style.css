@@ -41,7 +41,8 @@ nav .nav-list .nav-item:hover {
     background: rgba(0, 0, 0, 0.596);
 border-radius: 30px;
 transition: .8s;
-   
+   background-color: #18003f;
+
 }
 
 
@@ -53,12 +54,21 @@ nav .nav-list .nav-link {
 
 @media (max-width: 935px) {
 
+    .con {
+
+        position: relative;
+        
+        
+        
+        }
+        
     nav {
         padding: 0 2rem;
     }
 
     nav .nav-list .nav-item {
         padding: 0 20px;
+        
     }
     nav .navbar-brand {
         font-size: 20px;
@@ -77,9 +87,10 @@ nav .nav-list .nav-link {
         width: 100%;
         top: 75px;
         left: 0;
-        transform: translateY(-100%);
-        z-index: -1;
+        transform: translateX(-100%);
+        z-index: 1;
         transition: .6s;
+      
     }
 
     nav .nav-list .nav-item {
@@ -91,6 +102,8 @@ nav .nav-list .nav-link {
     }
     
 
+    
+        
 }
 
 nav .navbar-toggler {
@@ -141,6 +154,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 }
 body{
     background-image: url(logo/bak.jpg);
+    position: relative;
 }
 .con table{
 margin-left: 7cm;
@@ -196,14 +210,23 @@ clip-path: circle(50%);
     font-size: 25px;
     margin-left: 0cm;
 }
+.con {
+
+    position: relative;
+    
+    
+    
+    }
+    
 }
 
 
 @media (max-width: 675px) {
     
     .con table{
-        margin-left: 2cm;
+        margin-left: 1cm;
         width: 250px;
+        position: relative;
         }
 
 
@@ -211,5 +234,10 @@ clip-path: circle(50%);
 
     font-size: 15px;
     margin-left: 0cm;
+    position: relative;
 }
+
+
+
+
 }
